@@ -1,0 +1,20 @@
+pip3 freeze > requirments.txt
+pip3 install -r requirments.txt
+
+python3 -m venv venv
+source venv/bin/activate
+
+run:
+pip3 install selenium, pytest, faker
+
+just to run py file -> python3 registration_system.py
+
+to run pytest - >
+pytest -s -v --setup-show test_simple_example.py
+pytest -s -v test_simple_example.py
+
+
+is_displayed
+is_enabled
+is_selected
+
